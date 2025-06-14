@@ -1,0 +1,43 @@
+:root {
+  --surface-color: rgb(24, 20, 16);
+  --primary-color: rgb(234 134 29);
+  --secondary-color: rgb();
+  --tertiary-color: rgb();
+  --success-color: rgb();
+  --warning-color: rgb();
+  --error-color: rgb();
+  --text-color: white;
+}
+
+body {
+  background-color: var(--surface-color);
+  font-family: 'Segoe UI';
+  margin: 0px;
+}
+
+#nav {
+  position: sticky;
+  /* display: flex; */
+  padding: 15px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+[class*="icon"] {
+  color: var(--text-color);
+  z-index: 100;
+}
+
+#card {
+  display: inline-flex;
+  padding: 10px 0px 0px 10px;
+}
+
+#action {
+  padding: 15px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
